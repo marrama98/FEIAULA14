@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@100&family=Roboto:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    ;
+}
+
+header {
+    height: 61px;
+    background-color: #d1891c;
+    font-size: 35px;
+    color: #333333;
+    line-height: 56px;
+    padding: 5px;
+}
+
+.super {
+    height: 162px;
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    font-size: 72px;
+    color: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 2000px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-items: center;
+    align-items: center;
+    gap:30px;
+  
+}
+
+.card {
+    height: 1000px;
+    width: 450px;
+    background-color: #f3f3f3;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+   }
+
+.card img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    }
+
+
+.batman {
+    background-image: url(../img/fundo\ batman.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+
+    .superman {
+        background-image: url(../img/fundo\ superman.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        }
+
+        .maravilha{
+            background-image: url(../img/fundo\ maravilha.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            }
+
+            .alerquina{
+                background-image: url(../img/fundo\ alerquina.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                }
